@@ -14,8 +14,9 @@ A Conta Meru é a conta central e principal de um Japamala, tradicionalmente mai
 
 ## Especificações
 
-- **Diâmetro:** 18mm
-- **Diâmetro do cordão:** 2mm (com folga de 0.4mm)
+- **Diâmetro da esfera:** 18mm
+- **Diâmetro do cordão:** 2mm
+- **Diâmetro do canal:** 2.4mm (cordão 2mm + folga 0.4mm)
 - **Material recomendado:** PLA, PETG ou resina
 - **Sistema de encaixe:** 4 pinos friction fit
 
@@ -56,7 +57,9 @@ Para modificar o design, edite o arquivo `meru.scad` no OpenSCAD e ajuste os par
 ```openscad
 diametro_esfera = 18;        // Diâmetro total da esfera (mm)
 diametro_cordao = 2;         // Diâmetro do cordão (mm)
-profundidade_relevo = 1.2;   // Profundidade do relevo
+folga_cordao = 0.4;          // Folga adicional para o cordão (mm)
+profundidade_canal = 1.2;    // Profundidade do canal em T (mm)
+profundidade_relevo = 1.2;   // Profundidade do relevo Dharmachakra (mm)
 // ... e outros parâmetros
 ```
 

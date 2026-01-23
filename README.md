@@ -52,15 +52,21 @@ A Conta Meru é a conta central e principal de um Japamala, tradicionalmente mai
 
 ## Personalização
 
-Para modificar o design, edite o arquivo `meru.scad` no OpenSCAD e ajuste os parâmetros:
+Para modificar o design, edite o arquivo `meru.scad` no OpenSCAD e ajuste os parâmetros principais:
 
 ```openscad
+// Parâmetros principais
 diametro_esfera = 18;        // Diâmetro total da esfera (mm)
 diametro_cordao = 2;         // Diâmetro do cordão (mm)
 folga_cordao = 0.4;          // Folga adicional para o cordão (mm)
-profundidade_canal = 1.2;    // Profundidade do canal em T (mm)
+profundidade_canal = 1.2;    // Profundidade do canal em T na face plana (mm)
 profundidade_relevo = 1.2;   // Profundidade do relevo Dharmachakra (mm)
-// ... e outros parâmetros
+
+// Outros parâmetros configuráveis:
+// - espessura_parede: Espessura mínima da parede
+// - diametro_pino, altura_pino, tolerancia_encaixe: Sistema de encaixe
+// - Parâmetros de textura: num_caracois_*, tamanho_caracol, etc.
+// Consulte o arquivo meru.scad para a lista completa
 ```
 
 ## Requisitos

@@ -1,6 +1,7 @@
 // ====================================================
-// Conta Meru para Japamala
+// DaiMeru - Conta Meru para Japamala
 // ====================================================
+// Projeto: https://github.com/guimasan/DaiMeru
 // Esfera dividida ao meio com canal em T para passagem
 // dos cordões nas faces planas que se encontram
 // ====================================================
